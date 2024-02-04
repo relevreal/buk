@@ -1,0 +1,7 @@
+EVENT_GROUP_FTS5_TABLE_NAME = 'event_group_fts5'
+
+CREATE_EVENT_FTS5_GROUP_TABLE_SQL = '''
+CREATE VIRTUAL TABLE IF NOT EXISTS event_group_fts5 USING fts5(name, sport_id, date)
+'''
+
+DROP_EVENT_GROUP_FTS5_TABLE_SQL = 'DROP TABLE IF EXISTS event_group_fts5'

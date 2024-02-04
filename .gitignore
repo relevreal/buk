@@ -1,0 +1,10 @@
+.python-version
+
+__pycache__/
+
+buks.db
+buks.db-shm
+buks.db-wal
+
+log.log
+tmp/
